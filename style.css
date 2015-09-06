@@ -1,0 +1,67 @@
+This is the CSS used
+
+*  Table Adjustments======================================================= */
+
+td  {
+    border:0.5px solid #D3D3D3;    
+}
+th{
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.table-modal {
+    width: 100%;
+}
+
+.thead-modal, .tbody-modal, .tr-modal, .td-modal, .th-modal, .th-modal-small { 
+    display: block; 
+}
+
+.tr-modal:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.thead-modal .th-modal {
+    height: 30px;
+
+    /*text-align: left;*/
+}
+
+.tbody-modal {
+    height: 70px;
+    overflow-y: auto;
+}
+
+.thead-modal {
+    /* fallback */
+}
+
+.tbody-modal .td-modal, .thead-modal .th-modal {
+    width: 30.5%;
+    float: left;
+}
+
+.th-modal-small .td-modal-small {
+    width: 10.5%;
+    float: left;
+}
+
+.table-content{
+    font-size: 1.2em; 
+    height: 1.5em;
+    font-weight: normal;
+}
+
+.table-header{
+    font-size: 1.3em; 
+    height: 1.5em;
+    font-weight: normal;
+}
+
+
+.teste{
+    margin-left: auto;
+    margin-right: auto;}
