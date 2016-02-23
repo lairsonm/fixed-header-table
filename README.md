@@ -2,7 +2,6 @@
 Fixed header table using only css
 Made by Lairson Barreto using Twitter Bootstrap and CSS
 
-Live sample at:
-http://www.lairsonbarreto.com/fixed-header-table/page.html
+
 
 Fiddle -> http://jsfiddle.net/lairsonm/1z4dur5q/
